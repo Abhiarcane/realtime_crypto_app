@@ -1,0 +1,27 @@
+table {
+  width: 80%;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: rgb(31 41 55);
+  color: white;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* Centers text horizontally */
+}
+
+th,
+td {
+  padding-bottom: 20px;
+  text-align: center; /* Centers text horizontally */
+  vertical-align: middle; /* Centers content vertically */
+}
+
+th {
+  font-weight: bold;
+}
+
+td img {
+  display: block;
+}

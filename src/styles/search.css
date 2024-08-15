@@ -1,0 +1,36 @@
+.search-div {
+  width: 50%;
+  background-color: rgb(62, 62, 62);
+  display: flex;
+  gap: 10px;
+  margin-left: 5rem;
+  align-items: center;
+  padding: 0px 20px;
+  border-radius: 25px;
+}
+
+.search-input {
+  width: 100%;
+  border: none;
+  background-color: rgb(62, 62, 62);
+  font-size: 1rem;
+  color: white;
+  height: 100%;
+  outline: none;
+  padding: 15px 0px;
+}
+.search-input:focus {
+  outline: none;
+  border: none;
+}
+
+.btn-search {
+  background-color: greenyellow;
+  border: none;
+  height: 30px;
+  padding: 5px 5px;
+}
+
+.search-icon {
+  color: gray;
+}

@@ -1,0 +1,100 @@
+.coin-list {
+  list-style: none;
+}
+
+.coin-container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 150px;
+}
+.coin-box {
+  background-color: #1b1b1b;
+  width: 350px;
+  height: 300px;
+  margin: 10px;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  transition: all 167ms;
+}
+.coin-box:hover {
+  outline: 3px solid rgb(166, 255, 33);
+}
+
+.coin-img-box {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+}
+.coin-symb {
+  display: flex;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.coin-name {
+  display: flex;
+  font-weight: light;
+  font-size: 1rem;
+  color: gray;
+}
+.coin-img {
+  width: 50px;
+}
+.coin-price {
+  display: flex;
+  color: gray;
+}
+
+.coin-rates {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.coin-rates span {
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+.icon-up {
+  border-radius: 15px;
+  padding: 2px 15px;
+}
+
+.icon-down {
+  border-radius: 15px;
+  padding: 2px 15px;
+}
+
+.red {
+  color: red;
+  border: 2px solid red;
+}
+.green {
+  color: green;
+  border: 2px solid green;
+}
+.price-green {
+  color: green;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.price-red {
+  display: flex;
+  color: red;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.coin-volume {
+  display: flex;
+  margin-top: 5px;
+  color: gray;
+}

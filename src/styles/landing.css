@@ -1,0 +1,80 @@
+/* Base Styles */
+.landing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  text-align: center; /* Center text for smaller screens */
+}
+
+.heading {
+  font-size: 6rem;
+  font-weight: 800;
+  color: white;
+  margin: 0;
+}
+
+.heading-secondary {
+  color: rgb(41, 211, 41);
+  margin-bottom: 2rem;
+  font-size: 4rem;
+}
+
+.btn {
+  padding: 13px 25px;
+  border-radius: 25px;
+  border: none;
+  color: black;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 167ms;
+  margin: 0.5rem; /* Add margin for better spacing on smaller screens */
+}
+
+.btn-sign-up {
+  background-color: white;
+}
+
+.btn-sign-up:hover {
+  background-color: rgb(41, 211, 41);
+  color: black;
+}
+
+.btn-dashboard {
+  background-color: rgb(41, 211, 41);
+}
+
+.btn-dashboard:hover {
+  background-color: white;
+}
+
+/* Media Queries */
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 2.5rem; /* Even smaller font size for mobile phones */
+  }
+
+  .heading-secondary {
+    font-size: 1.8rem; /* Even smaller font size for mobile phones */
+  }
+
+  .btn {
+    padding: 8px 15px; /* Smaller padding for mobile phones */
+    font-size: 0.8rem; /* Smaller font size for buttons */
+  }
+
+  .landing-container {
+    padding-top: 150px;
+    height: 100vh;
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+
+  img {
+    width: 30px; /* Smaller image for mobile phones */
+    height: 50px; /* Maintain aspect ratio */
+  }
+}
